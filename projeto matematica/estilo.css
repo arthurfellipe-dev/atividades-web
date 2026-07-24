@@ -1,5 +1,5 @@
 body{
-	background-color:#8568f9;
+	background-color:#2c1a5e;
 	font-size:16px;
 	font-family:Monospace;
 	margin: 10px auto;
@@ -15,6 +15,7 @@ body{
 	text-align:center;
 	padding:10px;
 	margin-bottom:10px;
+	border-radius: 15px;
 }
 
 a{
@@ -30,7 +31,7 @@ a{
 	text-align:justify;
 	padding:15px;
 	margin-bottom:10px;
-
+	border-radius: 15px;
 	overflow: auto;
 }
 
@@ -38,15 +39,24 @@ a{
 	float: right;
 	margin-left: 20px;
 	margin-bottom: 15px;
+	border-radius: 15px;
 }
 
 .midia-conteudo-esquerda{
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 15px;
+	border-radius: 15px;
 }
 
-h2{
+.midia-conteudo-centro{
+	float: center;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+h2, h3{
 	text-align:center;
 }
 
